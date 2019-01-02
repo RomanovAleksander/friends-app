@@ -53,6 +53,7 @@ function displayUsersList(list) {
 
 function remove(item) {
     document.getElementById(item.login.username).classList.add('hidden');
+    document.getElementById(item.login.username).classList.remove('displayed');
 }
 
 function show(item) {
